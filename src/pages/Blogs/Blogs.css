@@ -1,0 +1,23 @@
+
+.HJ_container{
+width:100vw;
+height: 100vh;
+background-color:  #F0F0F0;
+}
+
+.HJ_btn{
+    background-color: rgba(0, 78, 107, 1);
+    color:white;
+    border-radius: 0.5rem;
+    border:none;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    padding:0.5rem;
+    margin-top:1rem ;
+    margin-bottom: 1rem;
+    margin-left:1.19rem ;
+}
+.HJ_btn img{
+    padding-right:0.5rem;
+}

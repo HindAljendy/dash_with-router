@@ -1,0 +1,129 @@
+.HJ_form{
+    width: 75vw;
+    height: 100%; 
+    background-color: #F0F0F0;
+    padding-left: 1.25rem;
+}
+.HJ_form-part1 .HJ_label{
+    color: black;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+
+.HJ_form-part1 .HJ_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+    
+}
+.HJ_form-part1 .HJ_content .HJ_form-image{
+    
+    width: 90%;
+    height: 24.8rem;
+    border-radius: 1.01em;
+    background: #004E6B;
+    margin-right: 10%;
+}
+
+.HJ_form-part1 .HJ_content .HJ_new{
+    width: 6.4rem;
+    position: absolute;
+    left:42%;
+    top: 34%; 
+}
+
+.HJ_form-part1 .HJ_label::after{
+    content: " * ";
+    color: #E76A6A;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+.HJ_form input::placeholder{
+    color: #282828;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.HJ_star{
+    color: #E76A6A;
+    font-size: 1.25rem;
+    font-weight: 400;
+    position: relative;
+    left:-42.7rem;
+}
+.HJ_form-part2{
+    position: relative;
+}
+
+.HJ_form-part2 , .HJ_form_description{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.HJ_form-part2 .HJ_title {
+    width: 45rem;
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid #282828;
+    margin-right: 10px;
+}
+
+
+.HJ_form-part2 .HJ_date{
+    width: 14.75rem;;
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid #282828;
+    margin-left: 30px;
+}
+
+.HJ_form-part2 .HJ_calender{
+    position: absolute;
+    right:8rem;
+    top:0.5rem
+} 
+.HJ_form_select .HJ_select{
+    width: 63rem;
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid #282828;
+    color: #282828;
+    font-size: 1.25rem;
+    font-weight: 400;
+    
+}
+
+
+.HJ_form_description .HJ_description{
+    width: 63rem;
+    height: 19.125rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.HJ_form_description label{
+    color: #282828;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.HJ_form_link a{
+    color: #004E6B;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0.5rem;
+}
+
+.HJ_form_buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 7.5rem;
+}

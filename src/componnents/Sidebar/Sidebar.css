@@ -1,0 +1,49 @@
+.HJ-sidebar{
+    background-color:rgba(0, 78, 107, 1);
+    width: 25%;
+    height: 100%;
+    transition: all 0.5s;
+    position: relative;
+}
+.HJ-sidebar-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.HJ-sidebar-title .HJ-bars{
+    color:white;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    
+}
+.HJ-sidebar-title .HJ-brand{
+    margin:1.5rem 3rem 3rem 3rem;
+
+
+}
+.HJ-sidebar-list{
+    list-style: none;
+    
+}
+.HJ-sidebar-list .HJ-sidebar-list-item {
+    margin-bottom: 2.5rem;
+    margin-left: 3rem;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    display: flex;
+}
+
+.HJ-sidebar-list-item img{
+    background-color: white;
+    margin-right:1rem;
+    padding:0.2rem;
+    border-radius: 0.2rem;
+}
+.HJ-sidebar-list-item a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+} 
